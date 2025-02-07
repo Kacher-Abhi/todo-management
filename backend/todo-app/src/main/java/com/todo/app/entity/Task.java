@@ -21,19 +21,19 @@ public class Task {
 	@Id
 	@GeneratedValue(strategy = GenerationType.UUID)
 	private UUID id;
-	
+
 	private String shortDesc;
-	
+
 	private String longDesc;
 
 	private LocalDate createdDate;
-	
+
 	private LocalTime createdTime;
-	
+
 	private LocalDate endDate;
-	
+
 	private LocalTime endTime;
 
 	private String status = "in-progress";
-	
+
 }
